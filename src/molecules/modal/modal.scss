@@ -1,0 +1,10 @@
+@import '../../utils/styles/variables.scss';
+
+$blockName: '.modal';
+
+#{$blockName} {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: $trans-black;
+}

@@ -1,0 +1,22 @@
+@import '../../utils/styles/variables.scss';
+
+$blockName: '.typeheader';
+
+#{$blockName} {
+    display: flex;
+    align-items: stretch;
+    &__input {
+        flex: 1;
+        border: none;
+        border-radius: 0;
+    }
+    &__button {
+        color: black;
+        background: $light-blue;
+        font-weight: bold;
+        padding: 2px 20px;
+        border-left: 1px solid $dark-blue;
+        border-radius: 0;
+        cursor: pointer;
+    }
+}
